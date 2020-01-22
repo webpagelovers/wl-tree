@@ -1,4 +1,4 @@
-import WebpageloversTree from 'src/components/Tree'
+import WebpageloversTree from './src/components/Tree'
 
 export default {
   install(Vue) {

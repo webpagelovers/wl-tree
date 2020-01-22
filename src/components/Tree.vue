@@ -10,13 +10,13 @@
 </template>
 
 <script>
-  import BasicTree from "@/components/BasicTree";
-  import defaultCheck from '@/compute-checked-nodes/default-check'
-  import justCheckOne from '@/compute-checked-nodes/just-check-one'
-  import onlyCheckOne from '@/compute-checked-nodes/only-check-one'
-  import justCheckChild from '@/compute-checked-nodes/just-check-child'
-  import justCheckAllChild from '@/compute-checked-nodes/just-check-all-child'
-  import justDisableChild from '@/compute-checked-nodes/just-disable-child'
+  import BasicTree from "./BasicTree";
+  import defaultCheck from '../compute-checked-nodes/default-check'
+  import justCheckOne from '../compute-checked-nodes/just-check-one'
+  import onlyCheckOne from '../compute-checked-nodes/only-check-one'
+  import justCheckChild from '../compute-checked-nodes/just-check-child'
+  import justCheckAllChild from '../compute-checked-nodes/just-check-all-child'
+  import justDisableChild from '../compute-checked-nodes/just-disable-child'
 
   export default {
     name: "Tree",
