@@ -1,21 +1,34 @@
-# tree
+# webpagelovers-tree
 
-> A Vue.js project
+> This is a Vue component for selecting tree data nodes
 
-## Build Setup
+# Install
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+``` 
+npm install webpagelovers-tree
 ```
+# Use
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+```
+# In main.js
+import WebpageloversTree from 'webpagelovers-tree'
+Vue.use(WebpageloversTree)
+
+# In *.vue
+<webpagelovers-tree></webpagelovers-tree>  
+```
+# Options
+
+| options        | type    |  case   |
+| -------- | ----- | ----  |
+| data      | Object  |       |
+| className        |   String  |      |
+| computeType        |    String  |     |
+
+# Methods
+
+| methods        |     |     |
+| -------- | ----- | ----  |
+| check      |   |       |
+| arrow-toggle        |     |      |
+| title-click        |     |     |
