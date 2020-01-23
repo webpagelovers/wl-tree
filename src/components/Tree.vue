@@ -172,8 +172,7 @@
     },
     mixins: [defaultCheck, justCheckOne, onlyCheckOne, justCheckChild, justCheckAllChild, justDisableChild],
     data() {
-      return {
-      }
+      return {}
     },
     methods: {
       check(item) {
@@ -199,13 +198,13 @@
           default:
             this.defaultCheck(this.data, item)
         }
-        this.$emit('check')
+        this.$emit('check', item)
       },
       arrowToggle(item) {
-        this.$emit('arrow-toggle')
+        this.$emit('arrow-toggle', item)
       },
       titleClick(item) {
-        this.$emit('title-click')
+        this.$emit('title-click', item)
       },
 
     }
