@@ -1,7 +1,7 @@
-# webpagelovers-tree
-
-> This is a Vue component for selecting tree data nodes
-
+# Description
+```
+This is a Vue component for selecting tree data nodes
+```
 # Install
 
 ``` 
@@ -19,7 +19,7 @@ Vue.use(WebpageloversTree)
 ```
 # Options
 
-| options        | type    |  case   |
+| options        | type    |     |
 | -------- | ----- | ----  |
 | data      | Object  |       |
 | className        |   String  |      |
