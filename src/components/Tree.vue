@@ -187,7 +187,7 @@
             this.onlyCheckOne(this.data, item)
             break
           case 'just-check-child':
-            this.justCheckChild(item)
+            this.justCheckChild(this.data, item)
             break
           case 'just-check-all-child':
             this.justCheckAllChild(item, item)
