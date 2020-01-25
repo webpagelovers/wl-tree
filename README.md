@@ -11,11 +11,11 @@ npm install webpagelovers-tree
 
 ```
 # In main.js
-import WebpageloversTree from 'webpagelovers-tree'
-Vue.use(WebpageloversTree)
+import WlTree from 'webpagelovers-tree'
+Vue.use(WlTree)
 
 # In *.vue
-<webpagelovers-tree></webpagelovers-tree>  
+<wl-tree></wl-tree>  
 ```
 # Attributes
 
