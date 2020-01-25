@@ -20,8 +20,8 @@ Vue.use(WebpageloversTree)
 # Attributes
 
 参数 | 说明 | 类型 | 可选值 |  默认值  
- ---- | ---- | ---- | ---- | ---- 
- data | 展示数据 | Object | 
+---- | ---- | ---- | ---- | ---- 
+data | 展示数据 | Object | 
 className | 自定义 class | String 
 computeType | 计算节点的方式 |  String |
 
@@ -29,6 +29,6 @@ computeType | 计算节点的方式 |  String |
 
 事件| 说明 | 参数 
 ----| ---- | ----  
-check| 点击 checkBox  |  `item` - 返回已经选择的节点     
-arrow-toggle|  点击箭头 | `item` - 返回已经选择的节点    
-title-click | 点击标题    |  `item` - 返回已经选择的节点   
+check| 点击 checkBox  |  `item/items` - object/array  返回被选中的节点     
+arrow-toggle|  切换箭头 | `item` - object 返回当前节点    
+title-click | 点击标题    |  `item` - object 返回当前节点   
