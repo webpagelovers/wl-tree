@@ -172,8 +172,7 @@
     },
     mixins: [defaultCheck, justCheckOne, onlyCheckOne, justCheckChild, justCheckAllChild, justDisableChild],
     data() {
-      return {
-      }
+      return {}
     },
     methods: {
       check(item) {
@@ -182,7 +181,7 @@
             this.defaultCheck(this.data, item)
             break
           case 'just-check-one':
-            this.justCheckOne(item)
+            this.justCheckOne(this.data, item)
             break
           case 'only-check-one':
             this.onlyCheckOne(this.data, item)

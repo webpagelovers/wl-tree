@@ -31,9 +31,10 @@ computeType | 计算节点的方式 |  String | default<br>just-check-one<br>onl
 事件| 说明 | 参数 
 ----| ---- | ----  
 check| 点击 checkBox  |  `item` - 返回当前节点   
-change | 监听被选中节点的变化    |  `item/items` - 返回被选中的节点   
 arrow-toggle|  切换箭头 | `item` - 返回当前节点    
-title-click | 点击标题    |  `item` - 返回当前节点 |   
+title-click | 点击标题    |  `item` - 返回当前节点 
+change | 监听被选中节点    |  `item/items` - 返回被选中的节点   
+ 
 
  
  

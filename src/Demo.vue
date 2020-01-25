@@ -1,5 +1,5 @@
 <template>
-  <tree @change="change" @check="check"></tree>
+  <tree compute-type="just-check-one" @change="change" @check="check"></tree>
 </template>
 
 <script>
@@ -19,7 +19,7 @@
         //console.log(checkedItems)
       },
       check(checkedItems){
-        console.log(checkedItems)
+        //console.log(checkedItems)
       }
     }
   }
