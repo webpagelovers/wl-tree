@@ -1,5 +1,5 @@
 <template>
-  <tree compute-type="just-disable-child"></tree>
+  <tree @change="change" @check="check"></tree>
 </template>
 
 <script>
@@ -14,7 +14,14 @@
       return {
       }
     },
-    methods: {}
+    methods: {
+      change(checkedItems){
+        //console.log(checkedItems)
+      },
+      check(checkedItems){
+        console.log(checkedItems)
+      }
+    }
   }
 </script>
 

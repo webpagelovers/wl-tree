@@ -7,6 +7,9 @@ export default {
         this.$set(item, 'checked', 'all')
       }
       this.setNodesChecked(treeData, item)
+      this.checkedItems = []
+      this.computeCheckedItems(treeData)
+      this.$emit('change', this.checkedItems)
     },
     setNodesChecked(treeData, item) {
       const nodes = item.nodes.split('-').reverse()
@@ -52,5 +55,15 @@ export default {
         })
       }
     },
+    computeCheckedItems(treeData) {
+      if (treeData.checked) {
+        this.checkedItems.push(treeData)
+      }
+      if (treeData.child && treeData.child.length > 0) {
+        treeData.child.forEach(item => {
+          this.computeCheckedItems(item)
+        })
+      }
+    }
   }
 }

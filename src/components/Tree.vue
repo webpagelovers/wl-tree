@@ -172,7 +172,8 @@
     },
     mixins: [defaultCheck, justCheckOne, onlyCheckOne, justCheckChild, justCheckAllChild, justDisableChild],
     data() {
-      return {}
+      return {
+      }
     },
     methods: {
       check(item) {
