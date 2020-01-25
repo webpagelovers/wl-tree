@@ -1,5 +1,5 @@
 <template>
-  <tree compute-type="just-check-all-child" @change="change" @check="check"></tree>
+  <tree compute-type="just-disable-child" @change="change" @check="check"></tree>
 </template>
 
 <script>
@@ -11,14 +11,13 @@
       Tree
     },
     data() {
-      return {
-      }
+      return {}
     },
     methods: {
-      change(checkedItems){
+      change(checkedItems) {
         console.log(checkedItems)
       },
-      check(checkedItems){
+      check(checkedItems) {
         //console.log(checkedItems)
       }
     }

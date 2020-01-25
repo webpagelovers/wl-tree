@@ -193,7 +193,7 @@
             this.justCheckAllChild(this.data, item, item)
             break
           case 'just-disable-child':
-            this.justDisableChild(item)
+            this.justDisableChild(this.data, item)
             break
           default:
             this.defaultCheck(this.data, item)
