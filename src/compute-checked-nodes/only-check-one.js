@@ -3,6 +3,7 @@ export default {
     onlyCheckOne(treeData, item) {
       this.clearAllNodes(treeData)
       this.$set(item, 'checked', item.checked === '' ? 'all' : '')
+      this.$emit('change', item)
     },
     clearAllNodes(treeData) {
       this.$set(treeData, 'checked', '')
