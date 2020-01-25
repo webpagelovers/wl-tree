@@ -21,7 +21,7 @@ Vue.use(WebpageloversTree)
 
 参数 | 说明 | 类型 | 可选值 |  默认值  
 ---- | ---- | ---- | ---- | ---- 
-data | 展示数据 | Object | default/just-check-one/only-check-one/just-check-child/just-check-all-child/just-disable-child| default
+data | 展示数据 | Object | default<br>just-check-one<br>only-check-one<br>just-check-child<br>just-check-all-child<br>just-disable-child|default
 className | 自定义 class | String | |
 computeType | 计算节点的方式 |  String | |
 
