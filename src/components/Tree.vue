@@ -190,7 +190,7 @@
             this.justCheckChild(this.data, item)
             break
           case 'just-check-all-child':
-            this.justCheckAllChild(item, item)
+            this.justCheckAllChild(this.data, item, item)
             break
           case 'just-disable-child':
             this.justDisableChild(item)
