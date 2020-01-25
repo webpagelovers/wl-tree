@@ -17,6 +17,7 @@
   import justCheckChild from '../compute-checked-nodes/just-check-child'
   import justCheckAllChild from '../compute-checked-nodes/just-check-all-child'
   import justDisableChild from '../compute-checked-nodes/just-disable-child'
+  import justDisableAllChild from '../compute-checked-nodes/just-disable-all-child'
 
   export default {
     name: "Tree",
@@ -170,7 +171,7 @@
     components: {
       BasicTree
     },
-    mixins: [defaultCheck, justCheckOne, onlyCheckOne, justCheckChild, justCheckAllChild, justDisableChild],
+    mixins: [defaultCheck, justCheckOne, onlyCheckOne, justCheckChild, justCheckAllChild, justDisableChild, justDisableAllChild],
     data() {
       return {}
     },
@@ -194,6 +195,9 @@
             break
           case 'just-disable-child':
             this.justDisableChild(this.data, item)
+            break
+          case 'just-disable-all-child':
+            this.justDisableAllChild(this.data, item)
             break
           default:
             this.defaultCheck(this.data, item)
