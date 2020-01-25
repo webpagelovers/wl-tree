@@ -23,12 +23,12 @@ Vue.use(WebpageloversTree)
 ---- | ---- | ---- | ---- | ---- 
 data | 展示数据 | Object | 
 className | 自定义 class | String 
-computeType | 计算节点的方式 |  String |
+computeType | 计算节点的方式 |  String 
 
 # Events
 
 事件| 说明 | 参数 
 ----| ---- | ----  
-check| 点击 checkBox  |  `item/items` - object/array  返回被选中的节点     
-arrow-toggle|  切换箭头 | `item` - object 返回当前节点    
-title-click | 点击标题    |  `item` - object 返回当前节点   
+check| 点击 checkBox  |  `item/items` - 返回被选中的节点     
+arrow-toggle|  切换箭头 | `item` - 返回当前节点    
+title-click | 点击标题    |  `item` - 返回当前节点   
