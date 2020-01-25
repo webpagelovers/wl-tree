@@ -27,9 +27,9 @@ computeType | 计算节点的方式 |  String | default<br>just-check-one<br>onl
 
 # Events
 
-事件| 说明 | 参数 
-----| ---- | ----  
-check| 点击 checkBox  |  `item/items` - 返回被选中的节点     
-arrow-toggle|  切换箭头 | `item` - 返回当前节点    
-title-click | 点击标题    |  `item` - 返回当前节点  
+|事件| 说明 | 参数 |
+|----| ---- | ----  |
+|check| 点击 checkBox  |  `item/items` - 返回被选中的节点 |    
+|arrow-toggle|  切换箭头 | `item` - 返回当前节点    |
+|title-click | 点击标题    |  `item` - 返回当前节点 | 
  

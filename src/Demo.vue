@@ -1,5 +1,5 @@
 <template>
-  <tree></tree>
+  <tree compute-type="just-disable-child"></tree>
 </template>
 
 <script>
