@@ -23,7 +23,7 @@ Vue.use(WebpageloversTree)
 ---- | ---- | ---- | ---- | ---- 
 data | 展示数据 | Object | |
 className | 自定义 class | String | |
-computeType | 计算节点的方式 |  String | default<br>just-check-one<br>only-check-one<br>just-check-child<br>just-check-all-child<br>just-disable-child|default  
+computeType | 计算节点的方式 |  String | default<br>just-check-one<br>only-check-one<br>just-check-child<br>just-check-all-child<br>just-disable-child|default  |
 
 
 # Events
@@ -32,7 +32,7 @@ computeType | 计算节点的方式 |  String | default<br>just-check-one<br>onl
 ----| ---- | ----  
 check| 点击 checkBox  |  `item/items` - 返回被选中的节点     
 arrow-toggle|  切换箭头 | `item` - 返回当前节点    
-title-click | 点击标题    |  `item` - 返回当前节点   
+title-click | 点击标题    |  `item` - 返回当前节点 |   
 
  
  
