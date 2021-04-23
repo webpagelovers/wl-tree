@@ -5,13 +5,13 @@ This is a Vue component for selecting tree data nodes
 # Install
 
 ``` 
-npm install webpagelovers-tree
+npm install wl-tree
 ```
 # Use
 
 ```
 # In main.js
-import WlTree from 'webpagelovers-tree'
+import WlTree from 'wl-tree'
 Vue.use(WlTree)
 
 # In *.vue
